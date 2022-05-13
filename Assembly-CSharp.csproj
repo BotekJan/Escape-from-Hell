@@ -45,10 +45,15 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Items\BasicSwordAttack.cs" />
      <Compile Include="Assets\Scripts\Items\Equipment.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
+     <Compile Include="Assets\Scripts\Items\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Items\WeaponAttack.cs" />
+     <Compile Include="Assets\Scripts\PlayerCombat.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\enemyAI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

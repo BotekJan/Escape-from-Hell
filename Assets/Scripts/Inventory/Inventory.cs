@@ -15,7 +15,7 @@ public class Inventory : MonoBehaviour
     }
     #endregion
     
-    Equipment[] currentItems;
+    public Equipment[] currentItems;
 
     void Start(){
         currentItems = new Equipment[System.Enum.GetNames(typeof(EquipmentSlot)).Length];

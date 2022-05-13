@@ -78,6 +78,8 @@ public class PlayerMovement : MonoBehaviour
     public void mainButtonPress(){
         if(focus != null){
             focus.Interact();
+        } else {
+            GetComponent<PlayerCombat>().attack();
         }
     }
 }
